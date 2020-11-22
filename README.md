@@ -1,4 +1,4 @@
-# ansibletower 3.8 installation 
+# Ansibletower 3.8 installation 
 
 1. Register in the redhat site to get the trial version of Ansible tower.
 
@@ -19,7 +19,7 @@
          python3 --version
          pip3 --version
  
- 6. Install the Ansible 
+ 6. Install the Ansible. Ansible tower 3.8 needs the <=  Ansible 2.9 version
  
         pip3 install ansible
  
@@ -37,11 +37,11 @@
   
      tar -xvf ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
   
-  10. Rename it to ansible tower
+ 10. Rename it to ansible tower
   
      mv -f ansible-automation-platform-setup-bundle-1.2.0-1 ansibletower
   
-  11. Go to inventory file which is in anisble tower folder and update the passords .Sample inverntoy file after entering the passwords
+ 11. Go to inventory file which is in anisble tower folder and update the passords .Sample inverntoy file after entering the passwords
   
   [tower]
 localhost ansible_connection=local
