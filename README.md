@@ -27,7 +27,7 @@
  
             ansible --version
    
- 8. Download the anisble tower trial version from the redhat site or download from my s3 bucket on /opt folder. ( install wget incase it is not installed)
+ 8. Download the anisble tower trial version from the redhat site or download from my s3 bucket .Place it on  /opt folder. ( install wget incase it is not installed)
  
            yum install wget
            wget https://devops2020.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
