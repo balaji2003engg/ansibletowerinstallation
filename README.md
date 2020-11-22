@@ -14,34 +14,34 @@
 
          dnf install python3
   
- 5. check the python installaton and pip3 installation 
+5. check the python installaton and pip3 installation 
  
          python3 --version
          pip3 --version
  
- 6. Install the Ansible. Ansible tower 3.8 needs the <=  Ansible 2.9 version
+6. Install the Ansible. Ansible tower 3.8 needs the <=  Ansible 2.9 version
  
         pip3 install ansible
  
- 7. check the ansible installation
+7. check the ansible installation
  
             ansible --version
    
- 8. Download the anisble tower trial version from the redhat site or download from my s3 bucket .Place it on  /opt folder. ( install wget incase it is not installed)
+8. Download the anisble tower trial version from the redhat site or download from my s3 bucket .Place it on  /opt folder. ( install wget incase it is not installed)
  
            yum install wget
            wget https://devops2020.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
  
  
- 9.Untar it
+9.Untar it
   
      tar -xvf ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
   
- 10. Rename it to ansible tower
+10. Rename it to ansible tower
   
      mv -f ansible-automation-platform-setup-bundle-1.2.0-1 ansibletower
   
- 11. Go to inventory file which is in anisble tower folder and update the passords .Sample inverntoy file after entering the passwords
+11. Go to inventory file which is in anisble tower folder and update the passords .Sample inverntoy file after entering the passwords
   
   [tower]
 localhost ansible_connection=local
@@ -61,8 +61,6 @@ pg_username='awx'
 pg_password='ansibletower'
 pg_sslmode='prefer'  # set to 'verify-full' for client-side enforced SSL
 
-# Automation Hub Configuration
-#
 
 automationhub_admin_password='ansibletower'
 
