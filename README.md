@@ -39,7 +39,7 @@
   
 10. Rename it to ansible tower
   
-     mv -f ansible-automation-platform-setup-bundle-1.2.0-1 ansibletower
+       mv -f ansible-automation-platform-setup-bundle-1.2.0-1 ansibletower
   
 11. Go to inventory file which is in anisble tower folder and update the passords .Sample inverntoy file after entering the passwords
   
@@ -77,10 +77,10 @@ automationhub_pg_sslmode='prefer'
  
 13. Make sure that port 443 is opened and open the ansible tower url from the browser.
  
-      https://<<serverip>>
-          ansible tower credentials
-          admin
-          ansibletower
+           https://<<serverip>>
+           ansible tower credentials
+           admin
+           ansibletower
      
 14. Upload the Manifest zip license file after the login into the anisble tower     
  
