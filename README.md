@@ -25,12 +25,12 @@
  
  7. check the ansible installation
  
-       ansible --version
+            ansible --version
    
  8. Download the anisble tower trial version from the redhat site or download from my s3 bucket on /opt folder. ( install wget incase it is not installed)
  
-      yum install wget
-      wget https://devops2020.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
+           yum install wget
+           wget https://devops2020.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
  
  
  9.Untar it
@@ -75,11 +75,16 @@ automationhub_pg_password=''
 automationhub_pg_sslmode='prefer'
 
  
- 12. Ran the setup.sh which is inside of the ansibletower folder 
+12. Ran the setup.sh which is inside of the ansibletower folder 
  
- 13. Make sure that port 443 is opened and open the ansible tower url from the browser.
+13. Make sure that port 443 is opened and open the ansible tower url from the browser.
  
-      https://<serverip>
+      https://<<serverip>>
+          ansible tower credentials
+          admin
+          ansibletower
+     
+14. Upload the Manifest zip license file after the login into the anisble tower     
  
  
   
