@@ -30,16 +30,16 @@
 8. Download the anisble tower trial version from the redhat site or download from my s3 bucket .Place it on  /opt folder. ( install wget incase it is not installed)
  
            yum install wget
-           wget https://devops2020.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
+            wget s3://devopsjune/ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
  
  
 9.Untar it
   
-     tar -xvf ansible-automation-platform-setup-bundle-1.2.0-1.tar.gz
+     tar -xvf ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
   
 10. Rename it to ansible tower
   
-       mv -f ansible-automation-platform-setup-bundle-1.2.0-1 ansibletower
+       mv -f ansible-automation-platform-setup-bundle-1.2.1-1 ansibletower
   
 11. Go to inventory file which is in anisble tower folder and update the passords .Sample inverntoy file after entering the passwords
   
