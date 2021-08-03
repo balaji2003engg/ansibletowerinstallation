@@ -33,9 +33,10 @@
             wget https://devopsjune.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
  
  
-9.Untar it
+9.Untar it and create the ansibletower folder in /opt
   
      tar -xvf ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
+     mkdir -p /opt/ansibletower
   
 10. Rename it to ansible tower
   
@@ -69,7 +70,7 @@ automationhub_pg_port=''
 
 automationhub_pg_database='automationhub'
 automationhub_pg_username='automationhub'
-automationhub_pg_password=''
+automationhub_pg_password='ansibletower'
 automationhub_pg_sslmode='prefer'
 
  
