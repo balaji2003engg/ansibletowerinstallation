@@ -33,10 +33,10 @@
             wget https://devopsjune.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
  
  
-9.Untar it and create the ansibletower folder in /opt
+9.Untar it 
   
      tar -xvf ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
-     mkdir -p /opt/ansibletower
+     
   
 10. Rename it to ansible tower
   
