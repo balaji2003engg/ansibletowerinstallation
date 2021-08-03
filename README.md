@@ -30,7 +30,7 @@
 8. Download the anisble tower trial version from the redhat site or download from my s3 bucket .Place it on  /opt folder. ( install wget incase it is not installed)
  
            yum install wget
-            wget s3://devopsjune/ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
+            wget https://devopsjune.s3.amazonaws.com/ansible-automation-platform-setup-bundle-1.2.1-1.tar.gz
  
  
 9.Untar it
