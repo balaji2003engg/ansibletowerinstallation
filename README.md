@@ -21,7 +21,7 @@
  
 6. Install the Ansible. Ansible tower 3.8 needs the <=  Ansible 2.9 version
  
-        pip3 install ansible
+        pip3 install 'ansible==2.9.10'
  
 7. check the ansible installation
  
